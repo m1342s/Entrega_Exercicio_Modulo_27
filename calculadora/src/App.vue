@@ -48,9 +48,8 @@ const calculadora = () => {
     :valorN1="(event) => (estado.n1 =Number(event.target.value))"
     :valorN2="(event) => (estado.n2 =Number(event.target.value))"
   />
-  <div class="d-block pb-3">
-  Resultado:<span>{{ calculadora() }}</span>
-  
+  <div class="d-flex justify-content-center pb-3 pt-3">
+  Resultado:<span style="font-weight: bold;">{{ calculadora() }}</span>
   </div>
 </template>
 

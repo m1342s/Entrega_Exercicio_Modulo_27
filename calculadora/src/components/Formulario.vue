@@ -9,7 +9,7 @@ const props=defineProps(["valorN1","valorN2","trocaFiltro","calculadora"])
       <div class="d-block pb-3">
         <label for="numero1">Número 1</label>
         <input @keyup="props.valorN1"
-          style="width: 150px"
+          style="width: 320px"
           type="number"
           step="0.01"
           class="form-control"
@@ -20,7 +20,7 @@ const props=defineProps(["valorN1","valorN2","trocaFiltro","calculadora"])
         <label for="numero2">Número 2</label>
         <input
         @keyup="props.valorN2"
-          style="width: 150px"
+          style="width: 320px"
           type="number"
           step="0.01"
           id="numero2"
@@ -29,7 +29,7 @@ const props=defineProps(["valorN1","valorN2","trocaFiltro","calculadora"])
       </div>
      
       <select @change="props.trocaFiltro" class="form-control" name="" id="select">
-        <option value="multiplicaçao">Multiplicação</option>
+        <option value="multiplicacao">Multiplicação</option>
         <option value="adicao">Adição</option>
         <option value="subtracao">Subtração</option>
         <option value="divisao">Divisão</option>
